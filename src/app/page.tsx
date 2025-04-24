@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 const sections = [
   {
-    title: 'Canto de Entrada', content: `
+    title: '🎵 Canto de Entrada 1', content: `
     <p><strong>Porque Ele Vive</strong></p>
     
     <p>Deus enviou Seu Filho amado<br />
@@ -21,8 +21,42 @@ const sections = [
     E verei que enfim, a minha alma<br />
     Terá descanso em Cristo, o Rei Jesus</p>
     `},
+
   {
-    title: 'Ato Penitencial',
+    title: '🎵 Canto de Entrada 2',
+    content: `
+    <p><strong>O Senhor ressurgiu, Aleluia!</strong></p>
+    
+    <p>O Senhor ressurgiu, Aleluia! Aleluia!<br />
+    É o Cordeiro pascal, Aleluia! Aleluia!<br />
+    Imolado por nós, Aleluia! Aleluia!<br />
+    É Cristo Senhor, Ele vive e venceu! Aleluia!</p>
+    
+    <p><strong>Aleluia, Aleluia, Aleluia!</strong></p>
+    `
+  }
+  ,
+
+  {
+    title: '🎵 Aspersão',
+    content: `
+<p><strong>Banhados em Cristo</strong></p>
+
+<p>Banhados em Cristo<br />
+Somos uma nova criatura.<br />
+As coisas antigas já se passaram,<br />
+Somos nascidos de novo.</p>
+
+<p><strong>Aleluia, Aleluia, Aleluia.</strong></p>
+
+<p>Banhados em Cristo<br />
+Somos uma nova criatura.<br />
+As coisas antigas já se passaram,<br />
+Somos nascidos de novo.</p>
+`
+  },
+  {
+    title: '🎵 Ato Penitencial',
     content: `
   <p><strong>Senhor que viestes salvar</strong><br />
   <em>(Ato Penitencial)</em></p>
@@ -42,7 +76,8 @@ const sections = [
   <strong>Piedade, Piedade<br />
   Piedade de nós (2x)</strong></p>
   `},
-  { title: 'Glória',
+  {
+    title: '🎵 Glória',
     content: `
   <p><strong>Glória a Deus nas alturas</strong><br />
   E paz na terra aos homens por Ele amados</p>
@@ -66,7 +101,7 @@ const sections = [
   `},
 
   {
-    title: '1ª Leitura',
+    title: '📖 1ª Leitura',
     content: `
 <p><strong>📖 Primeira Leitura (At 5,12-16)</strong><br />
 <em>Leitura dos Atos dos Apóstolos</em></p>
@@ -75,7 +110,7 @@ const sections = [
     `
   },
   {
-    title: 'Salmo Responsorial',
+    title: '🎵 Salmo Responsorial',
     content: `
 <p><strong>🎶 Salmo Responsorial Sl 117(118),2-4.22-24.25-27a (R. 1)</strong></p>
 <p><strong>R:</strong> Dai graças ao Senhor, porque Ele é bom! "Eterna é a sua misericórdia!"</p>
@@ -91,7 +126,7 @@ Desta casa do Senhor vos bendizemos. Que o Senhor e nosso Deus nos ilumine!</p>
     `
   },
   {
-    title: '2ª Leitura',
+    title: '📖 2ª Leitura',
     content: `
 <p><strong>📖 Segunda Leitura (Ap 1,9-11a.12-13.17-19)</strong><br />
 <em>Leitura do Livro do Apocalipse de São João</em></p>
@@ -99,11 +134,18 @@ Desta casa do Senhor vos bendizemos. Que o Senhor e nosso Deus nos ilumine!</p>
 <p><strong>— Palavra do Senhor.</strong><br />— Graças a Deus.</p>
     `
   },
-  {title: 'Aclamação',
-    content: ``},
+  {
+    title: '🎵 Aclamação',
+    content: `
+<p><strong>Aleluia, Aleluia, Aleluia (2x)</strong></p>
+
+<p><em>Acreditaste, Tomé, porque me viste.<br />
+Felizes os que creram sem ter visto!</em></p>
+`
+  },
 
   {
-    title: 'Evangelho',
+    title: '📖 Evangelho',
     content: `
 <p><strong>✝️ Evangelho (Jo 20,19-31)</strong><br />
 <em>Evangelho de Jesus Cristo + segundo João</em></p>
@@ -117,8 +159,27 @@ Desta casa do Senhor vos bendizemos. Que o Senhor e nosso Deus nos ilumine!</p>
 <p><strong>— Palavra da Salvação.</strong><br />— Glória a vós, Senhor.</p>`
   },
 
-  { title: 'Ofertório', content: '— letra aqui —' },
-  { title: 'Comunhão',
+  {
+    title: '🎵 Ofertório',
+    content: `
+  <p><strong>Pão e Vinho</strong><br />
+  <em>(Milagre de Amor)</em></p>
+  
+  <p>Pão e vinho te apresentamos nesse altar,<br />
+  Como sinal que Tu recolhes nossa oferta,<br />
+  Tudo o que somos deixamos aqui. (2x)</p>
+  
+  <p>É um milagre que se dá:<br />
+  O pão e o vinho em corpo e sangue,<br />
+  Vão se transformar.</p>
+  
+  <p>Não há limites para o amor!<br />
+  Vem transformar também minha vida,<br />
+  Ó Senhor, é Teu esse milagre de amor.</p>
+  `
+  },
+  {
+    title: '🎵 Comunhão 1',
     content: `
   <p><strong>Na Comunhão, Jesus se dá no Pão</strong></p>
   
@@ -136,7 +197,125 @@ Desta casa do Senhor vos bendizemos. Que o Senhor e nosso Deus nos ilumine!</p>
   Na Eucaristia, o vinho se torna sangue,<br />
   Verdadeira bebida, nossa alegria.</p>
   ` },
-  { title: 'Canto Final', content: '— letra aqui —' },
+  {
+    title: '🎵 Comunhão 2',
+    content: `
+  <p><strong>Senhor, quando te vejo no sacramento da comunhão</strong></p>
+  
+  <p>Senhor, quando te vejo no sacramento da comunhão,<br />
+  Sinto o céu se abrir e uma luz a me atingir,<br />
+  Esfriando minha cabeça e esquentando o meu coração.</p>
+  
+  <p>Senhor, graças e louvores sejam dadas a todo momento!<br />
+  Quero te louvar na dor, na alegria e no sofrimento,<br />
+  E se em meio à tribulação, eu me esquecer de Ti,<br />
+  Ilumina minhas trevas com Tua luz.</p>
+  
+  <p><strong>Jesus, fonte de misericórdia que jorra do templo,<br />
+  Jesus, o Filho da Rainha,<br />
+  Jesus, rosto divino do homem,<br />
+  Jesus, rosto humano de Deus.</strong></p>
+  
+  <p>Chego muitas vezes em Tua casa, meu Senhor,<br />
+  Triste, abatido, precisando de amor.<br />
+  Mas depois da comunhão, Tua casa é meu coração,<br />
+  Então sinto o céu dentro de mim.</p>
+  
+  <p>Não comungo porque mereço, isso eu sei, ó meu Senhor,<br />
+  Comungo pois preciso de Ti.<br />
+  Quando faltei à missa, eu fugia de mim e de Ti,<br />
+  Mas agora eu voltei, por favor aceita-me.</p>
+  `
+  },
+
+  {
+    title: '🎵 Canto Final-1',
+    content: `
+  <p><strong>Ressuscitou</strong></p>
+  
+  <p>Novo dia surgiu e o povo<br />
+  Que andava nas trevas viu<br />
+  Uma intensa luz, teu clarão<br />
+  Tua glória a resplandecer</p>
+  
+  <p>Novo povo a trilhar um caminho<br />
+  Aberto por tuas mãos<br />
+  Obra nova enfim já podemos ver<br />
+  Nova criação</p>
+  
+  <p><strong>Somos nós este povo<br />
+  Alcançado por tua luz<br />
+  Fruto da tua obra na cruz</strong></p>
+  
+  <p><strong>O Senhor nosso Deus<br />
+  Que merece o louvor<br />
+  Todo nosso amor<br />
+  É o Rei que venceu<br />
+  Ao Cordeiro, a vitória<br />
+  Ao poder, honra e glória</strong></p>
+  
+  <p><strong>Ressuscitou!<br />
+  Ressuscitou!</strong></p>
+  
+  <p>Um só povo, um só corpo<br />
+  Um só canto pra teu louvor<br />
+  Tua Igreja, tua esposa<br />
+  Celebra o teu amor</p>
+  
+  <p>Soberano, majestoso<br />
+  Glorioso, vencedor<br />
+  Todos juntos, povo em festa<br />
+  Num banquete que não findará!</p>
+  
+  <p><strong>O Senhor nosso Deus<br />
+  Que merece o louvor<br />
+  Todo nosso amor<br />
+  É o Rei que venceu<br />
+  Ao Cordeiro, a vitória<br />
+  Ao poder, honra e glória</strong></p>
+  
+  <p><strong>Ressuscitou!<br />
+  Ressuscitou!<br />
+  Ressuscitou!</strong></p>
+  `
+  }
+  ,
+  {
+    title: '🎵 Canto Final 2',
+    content: `
+  <p><strong>O Elevador</strong><br />
+  
+  <p>Uma pequena via me levará<br />
+  Para os Teus altares, ó meu Rei<br />
+  Pequeno serei, então encontrarei<br />
+  Um lugar em Tuas mãos</p>
+  
+  <p>O Elevador que me fará subir até os céus<br />
+  São os Teus braços, ó Jesus</p>
+  
+  <p>Uma pequena via me levará<br />
+  Para os Teus altares, ó meu Rei<br />
+  Pequeno serei, então encontrarei<br />
+  Um lugar em Tuas mãos</p>
+  
+  <p>O Elevador que me fará subir até os céus<br />
+  São os Teus braços, ó Jesus</p>
+  
+  <p>Crescer me é impossível<br />
+  Devo suportar-me como sou<br />
+  Não quero ser grande, mas sim<br />
+  Teu pequenino</p>
+  
+  <p>Como pássaro livre a voar<br />
+  Como a rosa no campo a nascer<br />
+  Assim são os Teus pequenos</p>
+  
+  <p>Como a criança a correr<br />
+  Para os Teus braços eu irei também<br />
+  Para os Teus braços eu irei</p>
+  `
+  }
+
 ]
 
 
@@ -156,6 +335,12 @@ export default function Home() {
       <h2 className="text-lg text-center text-gray-600 mb-4">
         2º Domingo da Páscoa - Ano C
       </h2>
+      <img
+        src="/santatereza.png"
+        alt="Santa Teresinha"
+        className="mx-auto mb-8 w-40 "
+      />
+
 
       <div className="bg-gray-100 p-4 rounded-lg shadow mb-8">
         <h3 className="font-semibold mb-1">Antífona de Entrada</h3>
@@ -174,7 +359,7 @@ export default function Home() {
             {section.title}
           </button>
           {openIndex === index && (
-            <div className="px-4 py-2 bg-white text-gray-800">
+            <div className="px-4 py-2 bg-white text-gray-800 text-justify text-[17px] leading-relaxed">
               <div dangerouslySetInnerHTML={{ __html: section.content }} />
 
             </div>
