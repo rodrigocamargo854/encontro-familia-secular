@@ -25,36 +25,32 @@ const sections = [
   {
     title: '🎵 Canto de Entrada 2',
     content: `
-    <p><strong>O Senhor ressurgiu, Aleluia!</strong></p>
-    
-    <p>O Senhor ressurgiu, Aleluia! Aleluia!<br />
-    É o Cordeiro pascal, Aleluia! Aleluia!<br />
-    Imolado por nós, Aleluia! Aleluia!<br />
-    É Cristo Senhor, Ele vive e venceu! Aleluia!</p>
-    
-    <p><strong>Aleluia, Aleluia, Aleluia!</strong></p>
+    <p><strong>Jesus Ressuscitou</strong></p>
+
+    <p>Por Sua morte, a morte viu o fim<br />
+    Do sangue derramado a vida renasceu<br />
+    Seu pé ferido, nova estrada abriu<br />
+    E, Neste Homem, o homem, enfim se descobriu</p>
+
+    <p><strong>Meu coração me diz: o amor me amou<br />
+    E se entregou por mim! Jesus ressuscitou!<br />
+    Passou a escuridão, o Sol nasceu<br />
+    A vida triunfou: Jesus ressuscitou!</strong></p>
+
+    <p>Jesus me amou e se entregou por mim!<br />
+    Os homens todos podem o mesmo repetir<br />
+    Não temeremos mais a morte e a dor<br />
+    O coração humano em Cristo descansou</p>
+
+    <p><strong>Meu coração me diz: o amor me amou<br />
+    E se entregou por mim! Jesus ressuscitou!<br />
+    Passou a escuridão, o Sol nasceu<br />
+    A vida triunfou: Jesus ressuscitou!</strong></p>
     `
   }
   ,
 
-  {
-    title: '🎵 Aspersão',
-    content: `
-<p><strong>Banhados em Cristo</strong></p>
-
-<p>Banhados em Cristo<br />
-Somos uma nova criatura.<br />
-As coisas antigas já se passaram,<br />
-Somos nascidos de novo.</p>
-
-<p><strong>Aleluia, Aleluia, Aleluia.</strong></p>
-
-<p>Banhados em Cristo<br />
-Somos uma nova criatura.<br />
-As coisas antigas já se passaram,<br />
-Somos nascidos de novo.</p>
-`
-  },
+ 
   {
     title: '🎵 Ato Penitencial',
     content: `
@@ -103,36 +99,66 @@ Somos nascidos de novo.</p>
   {
     title: '📖 1ª Leitura',
     content: `
-<p><strong>📖 Primeira Leitura (At 5,12-16)</strong><br />
+<p><strong>📖 Primeira Leitura (At 14,21b-27)</strong><br />
 <em>Leitura dos Atos dos Apóstolos</em></p>
-<p>12 Muitos sinais e maravilhas eram realizados entre o povo pelas mãos dos apóstolos. Todos os fiéis se reuniam, com muita união, no Pórtico de Salomão, 13 Nenhum dos outros ousava juntar-se a eles, mas o povo estimava-os muito. 14 Crescia sempre mais o número dos que aderiam ao Senhor pela fé; era uma multidão de homens e mulheres. 15 Chegavam a transportar para as praças os doentes em camas e macas, a fim de que, quando Pedro passasse, pelo menos a sua sombra tocasse alguns deles. 16 A multidão vinha até das cidades vizinhas de Jerusalém, trazendo doentes e pessoas atormentadas por maus espíritos. E todos eram curados.</p>
-<p><strong>— Palavra do Senhor.</strong><br />— Graças a Deus.</p>
-    `
+<p>Naqueles dias: Paulo e Barnabé,<br />
+21b. voltaram para as cidades de Listra, Icônio e Antioquia.<br />
+22. Encorajando os discípulos, eles os exortavam a permanecerem firmes na fé,<br />
+dizendo-lhes: "É preciso que passemos por muitos sofrimentos para entrar no Reino de Deus".<br />
+23. Os apóstolos designaram presbíteros para cada comunidade.<br />
+Com orações e jejuns, eles os confiavam ao Senhor, em quem haviam acreditado.<br />
+24. Em seguida, atravessando a Pisídia, chegaram à Panfília.<br />
+25. Anunciaram a palavra em Perge, e depois desceram para Atália.<br />
+26. Dali embarcaram para Antioquia, de onde tinham saído, entregues à graça de Deus,<br />
+para o trabalho que haviam realizado.<br />
+27. Chegando ali, reuniram a comunidade.<br />
+Contaram-lhe tudo o que Deus fizera por meio deles e como havia aberto a porta da fé para os pagãos.</p>
+<p><strong>— Palavra do Senhor.</strong><br />— Graças a Deus.</p>`
   },
   {
     title: '🎵 Salmo Responsorial',
     content: `
-<p><strong>🎶 Salmo Responsorial Sl 117(118),2-4.22-24.25-27a (R. 1)</strong></p>
-<p><strong>R:</strong> Dai graças ao Senhor, porque Ele é bom! "Eterna é a sua misericórdia!"</p>
-<p>A casa de Israel agora o diga: "Eterna é a sua misericórdia!"<br />
-A casa de Aarão agora o diga: "Eterna é a sua misericórdia!"<br />
-Os que temem o Senhor agora o digam: "Eterna é a sua misericórdia!"</p>
-<p>"A pedra que os pedreiros rejeitaram, tornou-se agora a pedra angular.<br />
-Pelo Senhor é que foi feito tudo isso: Que maravilhas ele fez a nossos olhos!<br />
-Este é o dia que o Senhor fez para nós, alegremo-nos e nele exultemos!"</p>
-<p>"Ó Senhor, dai-nos a vossa salvação, ó Senhor, dai-nos também prosperidade!"<br />
-Bendito seja, em nome do Senhor, aquele que em seus átrios vai entrando!<br />
-Desta casa do Senhor vos bendizemos. Que o Senhor e nosso Deus nos ilumine!</p>
-    `
+<p><strong>🎶 Salmo Responsorial Sl 144(145)</strong></p>
+<p><strong>R:</strong> Bendirei o vosso nome, ó meu Deus, meu Senhor e meu Rei para sempre!</p>
+<p>Misericórdia e piedade é o Senhor,<br />
+Ele é amor, é paciência, é compaixão.<br />
+O Senhor é muito bom para com todos,<br />
+Sua ternura abraça toda criatura.</p>
+<p>Que vossas obras, ó Senhor, vos glorifiquem,<br />
+E os vossos santos com louvores vos bendigam!<br />
+Narrem a glória e o esplendor do vosso reino<br />
+E saibam proclamar vosso poder!</p>
+<p>Para espalhar vossos prodígios entre os homens<br />
+E o fulgor de vosso reino esplendoroso.<br />
+O vosso reino é um reino para sempre,<br />
+Vosso poder, de geração em geração.</p>`
   },
   {
     title: '📖 2ª Leitura',
     content: `
-<p><strong>📖 Segunda Leitura (Ap 1,9-11a.12-13.17-19)</strong><br />
+<p><strong>📖 Segunda Leitura (Ap 21,1-5a)</strong><br />
 <em>Leitura do Livro do Apocalipse de São João</em></p>
-<p>9 Eu, João, vosso irmão e companheiro na tribulação, e também no reino e na perseverança em Jesus, fui levado à ilha de Patmos, por causa da Palavra de Deus e do testemunho que eu dava de Jesus. 10 No dia do Senhor, fui arrebatado pelo Espírito e ouvi atrás de mim uma voz forte, como de trombeta, 11a a qual dizia: "O que vais ver, escreve-o num livro." 12 Então voltei-me para ver quem estava falando; e ao voltar-me, vi sete candelabros de ouro. 13 No meio dos candelabros havia alguém semelhante a um "filho de homem", vestido com uma túnica comprida e com uma faixa de ouro em volta do peito. 17 Ao vê-lo, caí como morto a seus pés, mas ele colocou sobre mim sua mão direita e disse: "Não tenhas medo. Eu sou o Primeiro e o Último, 18 aquele que vive. Estive morto, mas agora estou vivo para sempre. Eu tenho a chave da morte e da região dos mortos. 19 Escreve, pois, o que viste, aquilo que está acontecendo e que vai acontecer depois."</p>
-<p><strong>— Palavra do Senhor.</strong><br />— Graças a Deus.</p>
-    `
+<p>Eu, João,<br />
+1. Vi um novo céu e uma nova terra.<br />
+Pois o primeiro céu e a primeira terra passaram,<br />
+e o mar já não existe.<br />
+2. Vi a cidade santa, a nova Jerusalém,<br />
+que descia do céu, de junto de Deus,<br />
+vestida qual esposa enfeitada para o seu marido.<br />
+3. Então, ouvi uma voz forte que saía do trono e dizia:<br />
+"Esta é a morada de Deus entre os homens.<br />
+Deus vai morar no meio deles.<br />
+Eles serão o seu povo,<br />
+e o próprio Deus estará com eles.<br />
+4. Deus enxugará toda lágrima dos seus olhos.<br />
+A morte não existirá mais,<br />
+e não haverá mais luto, nem choro, nem dor,<br />
+porque passou o que havia antes."<br />
+5. Aquele que está sentado no trono disse:<br />
+"Eis que faço novas todas as coisas."<br />
+Depois, ele me disse: "Escreve,<br />
+porque estas palavras são dignas de fé e verdadeiras."</p>
+<p><strong>— Palavra do Senhor.</strong><br />— Graças a Deus.</p>`
   },
   {
     title: '🎵 Aclamação',
@@ -147,15 +173,15 @@ Felizes os que creram sem ter visto!</em></p>
   {
     title: '📖 Evangelho',
     content: `
-<p><strong>✝️ Evangelho (Jo 20,19-31)</strong><br />
+<p><strong>✝️ Evangelho (Jo 13,31-33a.34-35)</strong><br />
 <em>Evangelho de Jesus Cristo + segundo João</em></p>
-<p><strong>— Aleluia, Aleluia, Aleluia.</strong><br />
-"Acreditaste, Tomé, porque me viste. Felizes os que creram sem ter visto!"</p>
-<p>19 Ao anoitecer daquele dia, o primeiro da semana, estando fechadas, por medo dos judeus, as portas do lugar onde os discípulos se encontravam, Jesus entrou e pondo-se no meio deles, disse: "A paz esteja convosco". 20 Depois destas palavras, mostrou-lhes as mãos e o lado. Então os discípulos se alegraram por verem o Senhor. 21 Novamente, Jesus disse: "A paz esteja convosco. Como o Pai me enviou, também eu vos envio". 22 E depois de ter dito isto, soprou sobre eles e disse: "Recebei o Espírito Santo. 23 A quem perdoardes os pecados eles lhes serão perdoados; a quem os não perdoardes, eles lhes serão retidos".</p>
-<p>24 Tomé, chamado Dídimo, que era um dos doze, não estava com eles quando Jesus veio. 25 Os outros discípulos contaram-lhe depois: "Vimos o Senhor!". Mas Tomé disse-lhes: "Se eu não vir a marca dos pregos em suas mãos, se eu não puser o dedo nas marcas dos pregos e não puser a mão no seu lado, não acreditarei".</p>
-<p>26 Oito dias depois, encontravam-se os discípulos novamente reunidos em casa, e Tomé estava com eles. Estando fechadas as portas, Jesus entrou, pôs-se no meio deles e disse: "A paz esteja convosco". 27 Depois disse a Tomé: "Põe o teu dedo aqui e olha as minhas mãos. Estende a tua mão e coloca-a no meu lado. E não sejas incrédulo, mas fiel".</p>
-<p>28 Tomé respondeu: "Meu Senhor e meu Deus!" 29 Jesus lhe disse: "Acreditaste, porque me viste? Bem-aventurados os que creram sem terem visto!"</p>
-<p>30 Jesus realizou muitos outros sinais diante dos discípulos, que não estão escritos neste livro. 31 Mas estes foram escritos para que acrediteis que Jesus é o Cristo, o Filho de Deus, e para que, crendo, tenhais a vida em seu nome.</p>
+<p>31. Depois que Judas saiu do cenáculo, disse Jesus:<br />
+"Agora foi glorificado o Filho do Homem, e Deus foi glorificado nele.<br />
+32. Se Deus foi glorificado nele, também Deus o glorificará em si mesmo, e o glorificará logo.<br />
+33a. Filhinhos, por pouco tempo estou ainda convosco.<br />
+34. Eu vos dou um novo mandamento: amai-vos uns aos outros.<br />
+Como eu vos amei, assim também vós deveis amar-vos uns aos outros.<br />
+35. Nisto todos conhecerão que sois meus discípulos, se tiverdes amor uns aos outros."</p>
 <p><strong>— Palavra da Salvação.</strong><br />— Glória a vós, Senhor.</p>`
   },
 
